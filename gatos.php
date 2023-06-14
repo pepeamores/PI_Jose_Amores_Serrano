@@ -3,7 +3,7 @@
 <head>
 	<title>Gatos</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-	<link rel="stylesheet" href="style2.css">
+	<link rel="stylesheet" href="style4.css">
 </head>
 <style>
   body{
@@ -75,7 +75,7 @@
                 <p> <?php echo $row ['edad']; ?></p>
                 <p> <?php echo $row ['genero']; ?></p>
                 <p> <?php echo $row ['descripción']; ?></p>
-                <a href="#">Adoptar </a>
+                <a href="adoptar.php">Adoptar </a>
               </div>
 
 

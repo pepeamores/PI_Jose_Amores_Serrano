@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style4.css">
     <title>Protectoras</title>
 </head>
 <style>

@@ -2,27 +2,7 @@ html, body{
     margin: 0;
     padding: 0;
 }
-.container-fluid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-.toggle {
-  order: 1;
-}
-.nav-item.button {
-  order: 2;
-}
-.nav-item {
-  width: 100%;
-  text-align: center;
-  order: 3;
-  display: none;
-}
-.nav-item.active {
-  display: block;
-}
+
 .pg{
     background-color: #18d3ff;
   }
@@ -44,7 +24,7 @@ html, body{
   
   .header_section {
     background-color: #e3e3e3;
-    padding-top: 15px;
+    padding-top: 10px;
   }
   
   .header_section .container-fluid {
@@ -135,8 +115,6 @@ html, body{
   }
 
   /*fin header */
-
-
 body{
 
     font-family: sans-serif;

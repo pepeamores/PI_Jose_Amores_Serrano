@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="style4.css">
     <title>Iniciar</title>
 </head>
 <style>
@@ -102,7 +102,7 @@
         } else {
             print "<h1>Hola $nombre</h1>";
         }
-        print "<a href='index.php'>Volver al inicio</a>";
+        print "<a href='animales.php'>Poder adoptar</a>";
     }
     ?>
 </body>

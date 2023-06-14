@@ -3,13 +3,18 @@
 <head>
 	<title>Perros</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-	<link rel="stylesheet" href="style2.css">
+	<link rel="stylesheet" href="style4.css">
 </head>
 <style>
   body{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("./images/mascotas.jpg");
+    
+    text-align: center;
+  }
+  .alerta{
+    margin-top: 10%;
   }
 </style>
 <body>
@@ -60,6 +65,10 @@
         </nav>
       </div>
     </header>
-
+    <?php
+    
+    echo '<script>alert("Gracias por adoptar")</script>';   
+     ?> 
+       <a class="alerta" href="index.php">Volver al inicio</a>          
 </body>
 </html>

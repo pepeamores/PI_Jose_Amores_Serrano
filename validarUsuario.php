@@ -86,7 +86,7 @@ h2 {
         $conexion = mysqli_connect("localhost", "root", "", "animales");
         mysqli_query($conexion, "INSERT INTO usuario (`nombre`,`apellidos`, `password`,`edad`, `dni`,`email`,`admin`) 
                 VALUES ('$nombre','$apellido','$contrasena','$edad', '$dni','$email',  '0')");
-        print("<P> <A HREF='index.php'>Página principal</A> </P>");
+        print("<P> <A HREF='animales.php'>Adoptar animales</A> </P>");
     } else {
         //Sino pinto el formulario de nuevo para que vuelva a introducir los datos y la página se recargue y lo revalide cuando termine el formulario
         ?>
