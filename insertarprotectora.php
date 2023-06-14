@@ -35,9 +35,7 @@ session_start();
             <li class="nav-item">
               <a class="nav-link" href="index.php">Inicio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="service.html">Servicios</a>
-            </li>
+
             <li class="nav-item">
               <a class="nav-link" href="animales.php">Animales</a>
             </li>
